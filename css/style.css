@@ -1,0 +1,72 @@
+html {
+  box-sizing: border-box;
+}
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+body {
+    background-color: gray;
+   
+}
+
+/*HEADER STYLE*/
+.top {
+    /*border-bottom: 1px solid blue;*/
+    height: 21rem;
+    position: fixed;
+    width: 100%;
+    background-color: #0070C0 ;
+}
+.content {
+   margin: 0 auto;
+    width: 90%;
+    /*border: 1px solid pink;*/
+    height: 21rem;
+    padding: 1rem 0rem 0rem 0rem;
+}
+.title {
+    width:70%;
+text-align: left;
+  padding: 3rem 0;
+    float: right;
+    /*padding: 2.5rem 2rem 4rem 0.5rem;*/
+   
+}
+.title> h1 {
+     font-family: 'Fredoka One', cursive;
+    font-size: 5.9rem;
+    font-weight: 400;
+    margin: 0 auto;
+    color: #FDD865; 
+  
+}
+.list-style {
+  font-family: 'Comfortaa', cursive;
+    font-weight:lighter;
+    color: lightgreen;
+}
+.title> h2 {
+    font-family: 'Comfortaa', cursive;
+    font-size: 2.6rem;
+    font-weight: 700;
+    margin: .5em .15rem 0;
+    color: #ffffff;
+    text-shadow: 0px 1px 2px lightseagreen;
+}
+.logo {
+    width: 30%;
+    padding: 2.2rem 2.5rem 2rem 4rem;
+
+}
+
+
+/*sections styles*/
+/*.left-column {*/
+/*     border: 1px solid blue;*/
+/*}*/
+/*.right-column {*/
+/*     border: 1px solid blue;*/
+/*}*/
+/*.recipes {*/
+/*     border: 1px solid blue;*/
+/*}*/
