@@ -1,0 +1,182 @@
+html {
+  box-sizing: border-box;
+}
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+body {
+    background-color: gray;
+   
+}
+
+/*HEADER STYLE*/
+.top {
+    /*border-bottom: 1px solid blue;*/
+    height: 10rem;
+    width: 100%;
+    background-color: #0070C0 ;
+}
+.content {
+   margin: 0 auto;
+    width: 60%;
+    /*border: 1px solid pink;*/
+    height: 10rem;
+    padding: 1rem 0rem 0rem 0rem;
+}
+.title {
+    width:70%;
+text-align: left;
+     float: right;
+    /*padding: 2.5rem 2rem 4rem 0.5rem;*/
+   
+}
+.title> h1 {
+     font-family: 'Fredoka One', cursive;
+    font-size: 3.9rem;
+    font-weight: 400;
+    margin: 0 auto;
+    color: #FDD865;
+  
+}
+.list-style {
+  font-family: 'Comfortaa', cursive;
+    font-weight:lighter;
+    color: lightgreen;
+}
+.title> h2 {
+     font-family: 'Comfortaa', cursive;
+    font-size: 1.7rem;
+    font-weight: 700;
+    margin: .1em 0.2rem 0;
+    color: #ffffff;
+    text-shadow: 0px 1px 2px lightseagreen;
+}
+.logo {
+    width: 7rem;
+    height: 9rem;
+    margin: -0.5rem 0 0 4rem;
+    
+
+}
+
+
+/*sections styles*/
+.mylist {
+    font-family: 'Comfortaa', cursive;
+    font-size: 1rem;
+    font-weight: lighter;
+}
+
+.add-list {
+    /*background-image: url('../images/bananas.jpg');*/
+   background-color: hotpink;
+    background-position: center;
+    height: 25rem;
+    background-repeat: no-repeat;
+    width: 50%;
+    background-size: cover;
+    float:left;
+    color: black;
+    text-align:center;
+    padding: 7.5rem 1rem;
+    /*border: 1px solid pink;*/
+}
+
+.yellow-box {
+    background-color: #FDD865;
+    width: 22rem;
+    margin: 1rem auto;
+    padding: .5rem 0;
+    border-radius: 19rem 5rem 19rem;
+    border: dashed;
+}
+
+.input-box {
+    background: lightblue;
+    width: 15rem;
+    margin: 1rem auto;
+    height: 2.5rem;
+    text-align: center;
+    padding: .5rem;
+    border: 3px inset gray;
+    letter-spacing: .2rem;
+}
+.add-button {
+    border-radius: 1rem;
+    width: 7rem;
+    height: 3rem;
+    font-size: 1.5rem;
+    background-color: #FFC107;
+}
+
+.ready-list {
+    /*background-image: url('../images/bananas.jpg');*/
+    background-color: hotpink;
+    background-position: center;
+    height: 25rem;
+    background-repeat: no-repeat;
+    width: 50%;
+    background-size: cover;
+    float: left;
+    color: black;
+    text-align: center;
+    padding: 1rem 1rem;
+    /* border: 1px solid pink; */
+}
+
+/*items styles */
+
+.not-checked {
+    background-color: #ADD8E6;
+    border-radius: 3rem;
+    border: .1rem solid #03A9F4;
+    width: 19rem;
+    height: 1.9rem;
+    text-align: center;
+    padding: 0.2rem;
+    color: #0070C0;
+    margin: .5rem auto;
+    letter-spacing: .2em;
+}
+.delete {
+    float: left;
+    color: #0070C0;
+    font-family: 'Fredoka One', cursive;
+    margin-left: .5rem;
+
+}
+
+.checked {
+    background-color: white;
+    text-decoration: line-through;
+    border-radius: 3rem;
+    border: .1rem solid #03A9F4;
+    width: 19rem;
+    height: 1.9rem;
+    text-align: center;
+    padding: 0.2rem;
+    color: rgba(11, 120, 197, 0.7);
+    margin: .5rem auto;
+    letter-spacing: .2em;
+}
+/*FOOTER styles*/
+.social {
+    font-family: 'Comfortaa', cursive;
+    font-size: 2rem;
+    font-weight: light;
+    background: yellow;
+    width: 100%;
+    overflow: auto;
+    padding-bottom: 1.375rem;
+    text-align: center;
+}
+
+.social .pinterest{
+    color: red;
+    width: 2.5rem;
+    height: 2.5rem;
+    display: inline-block;
+    margin: 0.25rem 3px;
+    pading: 0.625rem 0;
+    text-align: center;
+
