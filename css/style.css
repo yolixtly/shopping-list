@@ -13,7 +13,11 @@ body {
 .top {
     /*border-bottom: 1px solid blue;*/
     height: 10rem;
+<<<<<<< HEAD
     /*position: fixed;*/
+=======
+    position: fixed;
+>>>>>>> gh-pages
     width: 100%;
     background-color: #0070C0 ;
 }
@@ -62,6 +66,7 @@ text-align: left;
 
 
 /*sections styles*/
+<<<<<<< HEAD
 .mylist {
     font-family: 'Comfortaa', cursive;
     font-size: 1rem;
@@ -182,3 +187,18 @@ text-align: left;
     text-align: center;
 
   }
+=======
+
+.info {
+    background-image: url('images/bananas.jpg');
+}
+/*.left-column {*/
+/*     border: 1px solid blue;*/
+/*}*/
+/*.right-column {*/
+/*     border: 1px solid blue;*/
+/*}*/
+/*.recipes {*/
+/*     border: 1px solid blue;*/
+/*}*/
+>>>>>>> gh-pages
