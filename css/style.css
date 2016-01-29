@@ -5,7 +5,8 @@ html {
   box-sizing: inherit;
 }
 body {
-    background-color: gray;
+    /*background-color: gray;*/
+    background-image: url('images/banana-icon2.png');
    
 }
 
@@ -55,8 +56,6 @@ text-align: left;
     width: 5rem;
     height: 7rem;
     margin:.5rem 0 0 9rem ;
-    
-
 }
 
 
@@ -126,24 +125,21 @@ text-align: left;
 
 /*items styles */
 
-.not-checked {
-    background-color: #ADD8E6;
-    border-radius: 3rem;
-    border: .1rem solid #03A9F4;
-    width: 19rem;
-    height: 1.9rem;
-    text-align: center;
-    padding: 0.2rem;
-    color: #0070C0;
-    margin: .5rem auto;
-    letter-spacing: .2em;
-}
-.delete {
+
+.delete-button {
     float: left;
     color: #0070C0;
     font-family: 'Fredoka One', cursive;
     margin-left: .5rem;
-
+}
+.item-not-checked {
+    cursor: pointer;
+    margin-top: 5px;
+    float: right;
+    height: 22px;
+    width: 22px;
+    display: block;
+    background-image: url("../images/banana-icon2.png");
 }
 
 .checked {
@@ -156,6 +152,18 @@ text-align: left;
     text-align: center;
     padding: 0.2rem;
     color: rgba(11, 120, 197, 0.7);
+    margin: .5rem auto;
+    letter-spacing: .2em;
+}
+.not-checked {
+    background-color: #ADD8E6;
+    border-radius: 3rem;
+    border: .1rem solid #03A9F4;
+    width: 19rem;
+    height: 1.9rem;
+    text-align: center;
+    padding: 0.2rem;
+    color: #0070C0;
     margin: .5rem auto;
     letter-spacing: .2em;
 }
@@ -177,6 +185,7 @@ text-align: left;
     height: 2.5rem;
     display: inline-block;
     margin: 0.25rem 3px;
-    pading: 0.625rem 0;
+    padding: 0.625rem 0;
     text-align: center;
 
+}
