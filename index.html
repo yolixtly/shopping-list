@@ -26,20 +26,25 @@
     <section class="mylist">
         <div class="add-list">
             <h1 class="yellow-box">Add items here</h1>
-            <h3 class="input-box">Product Name</h3>
+            <input class="input-box" type="text" name="add-items" autocomplete="off" placeholder="Product Name">
+            <!--<h3 class="input-box">Product Name</h3>-->
+        <!--the next P is just a test, I want to place the input items on the other side -->
+            <p class="test"></p>
             <button class="add-button">add me</button>
         </div>
         <div class="ready-list">
             <h1 class="yellow-box">My list</h1>
-            <h3 class="not-checked">
+            <ul class="added-items">
+            <li class="not-checked">
                 <span class="delete-button"></span>
                 milk
                 <span class="item-not-checked"></span>
-            </h3>
-            <h3 class="not-checked"><span class="delete-button"></span>chicken<span class="item-not-checked"></span></h3>
-            <h3 class="not-checked"><span class="delete-button"></span>turkey<span class="item-not-checked"></span></h3>
-            <h3 class="checked"><span class="delete-button"></span>cheese<span class="item-checked"></span></h3>
-            <h3 class="checked"><span class="delete-button"></span>carrots<span class="item-checked"></span></h3>
+            </li>
+            <li class="not-checked"><span class="delete-button"></span>chicken<span class="item-not-checked"></span></li>
+            <li class="not-checked"><span class="delete-button"></span>turkey<span class="item-not-checked"></span></li>
+            <li class="checked"><span class="delete-button"></span>cheese<span class="item-checked"></span></li>
+            <li class="checked"><span class="delete-button"></span>carrots<span class="item-checked"></span></li>
+        </ul>
         </div>
     </section>
     <footer class="social">
@@ -52,8 +57,9 @@
     </footer>
     </header>
 
-
-
+<script src="js/jquery-2.2.0.js"></script>
+<script src="js/script.js"></script>
+	
 </body>
 
 </html>

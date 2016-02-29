@@ -125,7 +125,9 @@ text-align: left;
 
 /*items styles */
 
-
+.added-items {
+    list-style-type: none;
+}
 .delete-button {
     cursor: pointer;
     margin:-3px 7px 11px;
