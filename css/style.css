@@ -60,6 +60,7 @@ text-align: left;
 
 
 /*sections styles*/
+
 .mylist {
     font-family: 'Comfortaa', cursive;
     font-size: 1rem;
@@ -90,7 +91,7 @@ text-align: left;
     border: dashed;
 }
 
-.input-box {
+.productInput {
     background: lightblue;
     width: 15rem;
     margin: 1rem auto;
@@ -125,10 +126,12 @@ text-align: left;
 
 /*items styles */
 
-.added-items {
+    /*ul*/
+.added-items {  
     list-style-type: none;
 }
-.delete-button {
+    /*X image*/
+.deleteButton {
     cursor: pointer;
     margin:-3px 7px 11px;
     float: left;
@@ -139,7 +142,8 @@ text-align: left;
     background-size: 100%;
     
 }
-.item-not-checked {
+    /*Banana icon*/
+.itemNotChecked {
     cursor: pointer;
     margin:-3px 7px 11px;
     float: right;
@@ -150,18 +154,8 @@ text-align: left;
     background-size: 100%;
     
 }
-.item-checked {
-    cursor: pointer;
-    margin:2px 7px 11px;
-    float: right;
-    height: 20px;
-    width: 20px;
-    display: block;
-    background-image: url('../images/cicle-blue.png');
-    background-size: 100%;
-    
-}
-.checked {
+    /*New background style for item checked*/
+.itemComplete {
     background-color: rgba(43, 104, 148, 0.56);
     text-decoration: line-through;
     border-radius: 3rem;
@@ -174,7 +168,21 @@ text-align: left;
     margin: .5rem auto;
     letter-spacing: .2em;
 }
-.not-checked {
+    /*New icon style for item checked*/
+     .itemComplete .itemChecked {
+        cursor: pointer;
+        margin:2px 7px 11px;
+        float: right;
+        height: 20px;
+        width: 20px;
+        display: block;
+        background-image: url('../images/cicle-blue.png');
+        background-size: 100%;
+    }
+
+
+    /*default style for new Item*/
+.newItem {
     background-color: #2B6894;
     border-radius: 3rem;
     border: .1rem solid #0070C0;
@@ -186,7 +194,10 @@ text-align: left;
     margin: .5rem auto;
     letter-spacing: .2em;
 }
-/*FOOTER styles*/
+
+
+
+    /*FOOTER styles*/
 .social {
     font-family: 'Comfortaa', cursive;
     font-size: 2rem;

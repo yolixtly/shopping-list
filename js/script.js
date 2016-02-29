@@ -1,26 +1,55 @@
-var doc = $(document);
 
-$(document).ready(function() { 
-console.log('welcome to the shopping list')
+	/*-----Global Variables -----*/
 
-// Function to submit the input item of input
+	var checkMark = "<span class= 'itemNotChecked'></span>"; 
+	var crossMark = "<span class= 'deleteButton'></span>";
 
-	$('.input-box').keydown(function (enter) {
-		console.log("typed character in list")
-		if (enter.keyCode == 13) {
-			postItem();
-		}
+
+	/*-----Function to submit the items of input with Add Me button -----*/
+
+	function addProduct(){
+		var itemInput = $(".productInput").val(); 	//items logged inside the text box "input"
+		var itemOnList =  "<li class ='newItem'>" + crossMark + itemInput + checkMark + "</li>";
+		$(".added-items").prepend(itemOnList);	
+		$(".productInput").val(""); 				//clean input box after clicking to add the last product
+
+	};
+
+	/*Calling the addProduct function with Click event*/
+
+		$(".add-button").click(addProduct);
+
+
+	/*---Function to check completed items---*/
+
+	$(".added-items").on('click', '.itemNotChecked', 
+		function(){
+			$(this).closest('li').toggleClass("itemComplete");
+	});
+
+
+	// $('.added-items').on('click','.itemNotChecked', function(){
+	// 	$(this).closest('li').addClass('itemComplete');
+	// 	$(this).closest('li').removeClass('newItem');
+
+	// });
+
+
+	/*---function to delete items---*/
+
+	$(document).on("click", '.deleteButton', 
+		function(){
+			$(this).closest('li').fadeOut(300);
+
 	})
 
 
-});
-	// $( "input" ).keyup(function() {
-	// 	// if (event.keyCode == 13) {
-	// 	// 	$('.add-button').click();
-	// 	// }
- //   var value = $( this ).val();
- //   $( ".test" ).text( value );
- // })
- // .keyup();
- // //$('.added-items').prepend( value )
+		
+	
+
+
+
+
+	
+
 
