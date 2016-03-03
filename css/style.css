@@ -155,6 +155,7 @@ text-align: left;
     
 }
     /*New background style for item checked*/
+
 .itemComplete {
     background-color: rgba(43, 104, 148, 0.56);
     text-decoration: line-through;
@@ -180,6 +181,7 @@ text-align: left;
         background-size: 100%;
     }
 
+    
 
     /*default style for new Item*/
 .newItem {

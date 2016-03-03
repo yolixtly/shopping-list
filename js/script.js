@@ -1,3 +1,4 @@
+	$(document).ready(function(){
 
 	/*-----Global Variables -----*/
 
@@ -22,17 +23,16 @@
 
 	/*---Function to check completed items---*/
 
-	$(".added-items").on('click', '.itemNotChecked', 
+	$(".added-items").on('click', '.itemNotChecked, .itemChecked', 
 		function(){
+
+			$(this).closest('li').toggleClass('newItem');
 			$(this).closest('li').toggleClass("itemComplete");
-	});
 
 
-	// $('.added-items').on('click','.itemNotChecked', function(){
-	// 	$(this).closest('li').addClass('itemComplete');
-	// 	$(this).closest('li').removeClass('newItem');
-
-	// });
+		    $(this).toggleClass("itemNotChecked");
+		    $(this).toggleClass("itemChecked");
+				});
 
 
 	/*---function to delete items---*/
@@ -43,8 +43,8 @@
 
 	})
 
+});
 
-		
 	
 
 
